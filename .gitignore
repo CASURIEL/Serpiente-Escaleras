@@ -1,0 +1,71 @@
+# =====================================
+# 🐍 Python / FastAPI Backend
+# =====================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+*.log
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PyInstaller
+*.spec
+
+# Test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# =====================================
+# 🎨 Frontend (HTML / CSS / JS)
+# =====================================
+node_modules/
+dist/
+build/
+.cache/
+*.map
+
+# =====================================
+# 🧠 IDE / Editor / Sistema
+# =====================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Windows / macOS system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# =====================================
+# 📦 OneDrive / Backup / Misc
+# =====================================
+~$*
+*.bak
+*.tmp
+*.swp
