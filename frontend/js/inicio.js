@@ -65,7 +65,7 @@ async function comenzarJuego() {
     }));
 
     const response = await fetch("http://localhost:3000/api/game/start", {
-      method: "POST",
+      method: "GET",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ players: playerData })
     });

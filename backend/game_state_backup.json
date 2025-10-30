@@ -47,59 +47,59 @@
     "ladders_climbed": 0,
     "snakes_found": 0,
     "game_started": true,
-    "start_time": "2025-10-30 03:27:36.894370"
+    "start_time": "2025-10-30 03:54:53.529394"
   },
   "ladders": {
-    "25": {
-      "end": 42,
-      "virtue": "Perdón"
+    "27": {
+      "end": 45,
+      "virtue": "Ayuda"
     },
-    "38": {
-      "end": 49,
+    "51": {
+      "end": 75,
       "virtue": "Oración"
     },
-    "11": {
-      "end": 21,
-      "virtue": "Ayuda"
-    },
-    "24": {
-      "end": 48,
-      "virtue": "Ayuda"
-    },
-    "56": {
-      "end": 69,
+    "38": {
+      "end": 61,
       "virtue": "Generosidad"
     },
-    "61": {
-      "end": 82,
-      "virtue": "Ayuda"
+    "52": {
+      "end": 63,
+      "virtue": "Oración"
+    },
+    "6": {
+      "end": 17,
+      "virtue": "Perdón"
+    },
+    "32": {
+      "end": 48,
+      "virtue": "Generosidad"
     }
   },
   "snakes": {
-    "41": {
-      "end": 36,
-      "sin": "Ira"
-    },
-    "23": {
-      "end": 8,
-      "sin": "Ira"
-    },
-    "53": {
-      "end": 42,
-      "sin": "Soberbia"
-    },
-    "33": {
-      "end": 20,
-      "sin": "Envidia"
-    },
-    "42": {
-      "end": 36,
-      "sin": "Envidia"
-    },
-    "35": {
+    "45": {
       "end": 26,
-      "sin": "Soberbia"
+      "sin": "Envidia"
+    },
+    "20": {
+      "end": 1,
+      "sin": "Codicia"
+    },
+    "50": {
+      "end": 42,
+      "sin": "Envidia"
+    },
+    "21": {
+      "end": 10,
+      "sin": "Codicia"
+    },
+    "58": {
+      "end": 40,
+      "sin": "Ira"
+    },
+    "39": {
+      "end": 23,
+      "sin": "Envidia"
     }
   },
-  "last_saved": "2025-10-30T03:27:36.894370"
+  "last_saved": "2025-10-30T03:54:53.529394"
 }

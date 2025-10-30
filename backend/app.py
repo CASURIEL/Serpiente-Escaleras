@@ -369,7 +369,7 @@ async def get_current_player():
         "message": f"🎯 Es el turno de {player.name} ({player.color})"
     }
 
-@app.post("/api/game/start")
+@app.get("/api/game/start")
 async def start_game(request: StartGameRequest):
     """Inicia un nuevo juego con los jugadores proporcionados"""
     global game_state
