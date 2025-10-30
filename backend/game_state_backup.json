@@ -1,0 +1,85 @@
+{
+  "game_state": {
+    "players": [
+      {
+        "name": "ROJO",
+        "color": "ROJO",
+        "position": 1,
+        "stats": {
+          "ladders": 0,
+          "snakes": 0
+        },
+        "avatar": "/img/JugadorRojo.png"
+      },
+      {
+        "name": "VERDE",
+        "color": "VERDE",
+        "position": 1,
+        "stats": {
+          "ladders": 0,
+          "snakes": 0
+        },
+        "avatar": "/img/JugadorVerde.png"
+      }
+    ],
+    "current_player_index": 0,
+    "total_turns": 0,
+    "ladders_climbed": 0,
+    "snakes_found": 0,
+    "game_started": true,
+    "start_time": "2025-10-28 02:00:29.503057"
+  },
+  "ladders": {
+    "32": {
+      "end": 53,
+      "virtue": "Perdón"
+    },
+    "49": {
+      "end": 68,
+      "virtue": "Perdón"
+    },
+    "50": {
+      "end": 69,
+      "virtue": "Generosidad"
+    },
+    "47": {
+      "end": 66,
+      "virtue": "Generosidad"
+    },
+    "31": {
+      "end": 52,
+      "virtue": "Oración"
+    },
+    "57": {
+      "end": 76,
+      "virtue": "Perdón"
+    }
+  },
+  "snakes": {
+    "35": {
+      "end": 29,
+      "sin": "Soberbia"
+    },
+    "16": {
+      "end": 1,
+      "sin": "Soberbia"
+    },
+    "42": {
+      "end": 36,
+      "sin": "Soberbia"
+    },
+    "37": {
+      "end": 19,
+      "sin": "Envidia"
+    },
+    "17": {
+      "end": 6,
+      "sin": "Soberbia"
+    },
+    "46": {
+      "end": 29,
+      "sin": "Ira"
+    }
+  },
+  "last_saved": "2025-10-28T02:00:29.504067"
+}

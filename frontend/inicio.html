@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pecados y Virtudes - Inicio</title>
+    <link rel="stylesheet" href="./css/aa.css">
+
+    <link rel="icon" href="./img/favicon.ico:">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+    <link rel="manifest" href="./img/site.webmanifest">
+</head>
+<body class="inicio-body">
+    <div class="container">
+        <!-- LOGO -->
+        <div class="header">
+            <img src="img/L1VERDESOMBRA.png" alt="Pecados y Virtudes" class="logo-img">
+        </div>
+
+        <div class="content-wrapper">
+            <h1 class="jugadores-title">
+                👥 <span class="jugadores-text">Jugadores:</span> <span id="contadorJugadores" class="contador-numero">2</span>
+            </h1>
+
+            <div id="listaJugadores" class="jugadores-cards"></div>
+
+            <div class="buttons-group">
+                <button id="btnQuitar" class="btn-remove">➖ Quitar Jugador</button>
+                <button id="btnAgregar" class="btn-add">➕ Añadir Jugador</button>
+            </div>
+        </div>
+
+        <br><br>
+        <!-- BOTÓN EN EL CENTRO ABAJO -->
+        <div class="footer">
+            <button id="btnComenzar" class="btn-start btn-background">🚀 Comenzar Juego</button>
+        </div>
+    </div>
+    <script type="module" src="./js/inicio.js"></script>
+</body>
+</html>

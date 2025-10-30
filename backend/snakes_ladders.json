@@ -1,0 +1,15 @@
+  // Coordenadas de las serpientes y escaleras, inicio -> final
+{
+  "snakes": {
+    "78": 59,
+    "67": 45,
+    "52": 31,
+    "39": 20
+  },
+  "ladders": {
+    "5": 25,
+    "18": 39,
+    "28": 55,
+    "49": 68
+  }
+}

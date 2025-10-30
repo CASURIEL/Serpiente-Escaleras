@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tablero Bíblico - Pecados y Virtudes</title>
+        <link rel="stylesheet" href="./css/aa.css">
+        <link rel="stylesheet" href="./css/bb.css">
+
+        <link rel="icon" href="./img/favicon.ico:">
+        <link rel="apple-touch-icon" sizes="180x180" href="./img/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+        <link rel="manifest" href="./img/site.webmanifest">
+    </head>
+    <body>
+        <!-- TITULO -->
+        <header class="containerup">
+            <div class="header">
+                <h1>🎲 Tablero Bíblico de Pecados y Virtudes</h1>
+                <p>Caminos a Edifi-Jugar</p>
+            </div>
+        </header>
+        <main class="main-container">        
+            <!-- PANEL IZQUIERDO -->
+            <nav class="panel-izquierda">
+                <img src="img/logo_juego.png" alt="Logo Pecados y Virtudes" class="logo-img logo-info-tex">
+            </nav>
+
+            <!-- PANEL CENTRAL -->
+            <article class="panel-central">
+                <section class="game-section">
+                    <div class="board" id="board">
+                        <!-- El tablero se generará aquí -->
+                    </div>
+                    <div class="board-zero" id="board-zero">
+                        <!-- Una celda donde al inicio se posiciona los avatares en posición zero -->
+                    </div>
+                </section>
+            </article>
+
+            <!-- PANEL DERECHO -->
+            <nav class="panel-derecha">
+                <img src="img/TextoVamosAEdif.png" alt="Vamos a Edifi-Jugar" class="logo-img logo-info-tex">
+                <div class="btn-home-div">
+                    <button class="btn-home" onclick="window.location.href='inicio.html'">🏠 Volver al inicio</button>
+                </div>
+
+                <!-- JUGADOR -->
+                <div class="info-box">
+                    <img src="img/TextoJugador.png" alt="Jugador" class="logo-img logo-info-tex">
+                    <div class="players-list" id="playersList">
+                        <!-- Lista de jugadores se actualiza dinámicamente -->
+                    </div>
+                </div>
+
+                <!-- DADO -->
+                <div class="info-box">
+                    <img src="img/TextoDado.png" alt="Dado" class="logo-img logo-info-tem">
+                    <div class="dice-input" style="margin-top: 20px;">
+                        <label for="dice-input">Pasos (1–6):</label>
+                        <input type="number" id="dice-input" min="1" max="6" value="1">
+                        <button id="moveButton" class="btn-start" style="font-size: 18px; padding: 15px 30px;">✅ Mover</button>
+                    </div>
+                </div>
+
+                <!-- LOGOS Y CRÉDITOS -->
+                <div class="info-box">
+                    <img src="img/LogoSublimeOracion.png" alt="Logo Sublime Oración" class="logo-img logo-info-tem">
+                    <img src="img/LogoEdifi_Jue.png" alt="Vamos a Edifi-Jugar" class="logo-img logo-info-tem">
+                </div>
+            </nav>
+        </main>
+        <footer class="containerdown">
+            <div class="">
+                <p>🎲 Tablero Bíblico de Pecados y Virtudes | Sublime Oración</p>
+                <img src="img/LogoSublimeOracion.png" alt="Jugador" class="logo-img">
+            </div>
+        </footer>
+        <script type="module" src="./js/juego.js"></script> 
+    </body>
+</html>
