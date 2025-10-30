@@ -203,12 +203,23 @@ app = FastAPI(
     redoc_url="/redoc"
 )
 
+# 🌍 Configura los orígenes permitidos
+origins = [
+    "http://localhost:3000",
+    "http://127.0.0.1:3000",
+    "http://localhost:5500",
+    "http://127.0.0.1:5500",
+    "http://localhost:8000",
+    "http://127.0.0.1:8000"
+]
+
+# 🧱 Middleware CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=origins,
     allow_credentials=True,
     allow_methods=["*"],
-    allow_headers=["*"],
+    allow_headers=["*"]
 )
 
 # ============ FUNCIONES DEL JUEGO - OPTIMIZADAS ============
@@ -676,4 +687,4 @@ async def startup_event():
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=3000, reload=True)
-    #uvicorn app:app --reload --host 0.0.0.0 --port 8000
+    #uvicorn app:app --reload --host 0.0.0.0 --port 3000
